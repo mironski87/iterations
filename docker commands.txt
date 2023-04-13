@@ -1,0 +1,5 @@
+1. package project with this command -> mvn package
+2. go to project_path/target
+3. make 'Dockerfile.txt' file with the code
+4. build image with 'docker build -t hangman-docker-image -f Dockerfile.txt .' in the terminal
+5. run the image with 'docker run -p 8080:8080 hangman-docker-image'

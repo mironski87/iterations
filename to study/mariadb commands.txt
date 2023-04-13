@@ -1,0 +1,7 @@
+net start mariadb
+sc query mariadb
+mysql -u root -p
+net stop mariadb
+SHOW DATABASES;
+USE my_database;
+SHOW TABLES;
