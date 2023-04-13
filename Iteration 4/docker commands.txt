@@ -1,0 +1,5 @@
+1. package project with this command -> mvn package
+2. go to {project-dir}/target
+3. make 'Dockerfile.txt' file with the code
+4. build image with this command in the terminal -> docker build -t {name-of-image} -f Dockerfile.txt .
+5. run the image with -> docker run -p 8080:8080 {name-of-image}
