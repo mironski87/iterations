@@ -1,8 +1,0 @@
-git rm -rf --cached .
-git add .
-
-
-git init -b main
-git add .
-git remote add origin <REMOTE_URL>
-git push origin main
