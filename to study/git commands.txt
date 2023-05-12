@@ -1,0 +1,9 @@
+git rm -rf --cached .
+git add .
+
+
+git init -b main
+git add .
+git commit -m "Message"
+git remote add origin <REMOTE_URL>
+git push origin main
